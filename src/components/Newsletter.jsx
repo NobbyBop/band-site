@@ -2,10 +2,15 @@ import { useState } from "react";
 
 import "./App.css";
 
-function App() {
+function Newsletter() {
   const [count, setCount] = useState(0);
 
-  return <p>This is the newsletter page.</p>;
+  return (
+    <>
+      <h2>Newsletter</h2>
+      <p>Newsletters here (obviously).</p>
+    </>
+  );
 }
 
-export default App;
+export default Newsletter;

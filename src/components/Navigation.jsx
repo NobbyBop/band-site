@@ -31,6 +31,12 @@ function App() {
       >
         Newsletter
       </NavLink>
+      <NavLink
+        to="/releases"
+        className={(navData) => (navData.isActive ? "active" : "none")}
+      >
+        Releases
+      </NavLink>
     </nav>
   );
 }
