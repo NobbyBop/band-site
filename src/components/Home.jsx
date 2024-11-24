@@ -1,10 +1,18 @@
 import { useState } from "react";
 import "./App.css";
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0);
 
-  return <p>This is the Home Page.</p>;
+  return (
+    <>
+      <h2>Home</h2>
+      <p>
+        Mobius Line Band information here. Some pictures and social links as
+        well.
+      </p>
+    </>
+  );
 }
 
-export default App;
+export default Home;

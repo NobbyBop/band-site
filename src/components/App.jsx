@@ -5,6 +5,8 @@ import Home from "./Home";
 import Merch from "./Merch";
 import Tour from "./Tour";
 import Newsletter from "./Newsletter";
+import Releases from "./Releases";
+import Admin from "./Admin";
 import "./App.css";
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Mobius Line</h1>
+        <h1>MOBIUS LINE</h1>
         <Navigation />
       </header>
       <Routes>
@@ -21,6 +23,8 @@ function App() {
         <Route path="/tour" element={<Tour />} />
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/merch" element={<Merch />} />
+        <Route path="/releases" element={<Releases />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </>
   );
