@@ -32,6 +32,12 @@ function App() {
         Newsletter
       </NavLink>
       <NavLink
+        to="/faq"
+        className={(navData) => (navData.isActive ? "active" : "none")}
+      >
+        FAQ
+      </NavLink>
+      <NavLink
         to="/releases"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >

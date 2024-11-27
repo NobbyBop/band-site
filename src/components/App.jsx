@@ -7,6 +7,7 @@ import Tour from "./Tour";
 import Newsletter from "./Newsletter";
 import Releases from "./Releases";
 import Admin from "./Admin";
+import FAQ from "./FAQ";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/merch" element={<Merch />} />
         <Route path="/releases" element={<Releases />} />
+        <Route path="/faq" element={<FAQ />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
     </>
