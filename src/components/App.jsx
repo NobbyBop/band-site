@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navigation from "./Navigation";
 import Home from "./Home";
@@ -11,8 +10,6 @@ import FAQ from "./FAQ";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <header>
