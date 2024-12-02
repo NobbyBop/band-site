@@ -17,13 +17,13 @@ function App() {
         <Navigation />
       </header>
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/tour" element={<Tour />} />
-        <Route path="/newsletter" element={<Newsletter />} />
-        <Route path="/merch" element={<Merch />} />
-        <Route path="/releases" element={<Releases />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/mobiusline/home" element={<Home />} />
+        <Route path="/mobiusline/tour" element={<Tour />} />
+        <Route path="/mobiusline/newsletter" element={<Newsletter />} />
+        <Route path="/mobiusline/merch" element={<Merch />} />
+        <Route path="/mobiusline/releases" element={<Releases />} />
+        <Route path="/mobiusline/faq" element={<FAQ />} />
+        <Route path="/mobiusline/admin" element={<Admin />} />
       </Routes>
     </>
   );
