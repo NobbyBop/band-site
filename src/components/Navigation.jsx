@@ -5,37 +5,37 @@ function Navigation() {
   return (
     <nav className="navigation">
       <NavLink
-        to="/home"
+        to="/mobiusline/home"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         Home
       </NavLink>
       <NavLink
-        to="/merch"
+        to="/mobiusline/merch"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         Merch
       </NavLink>
       <NavLink
-        to="/tour"
+        to="/mobiusline/tour"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         Tour
       </NavLink>
       <NavLink
-        to="/newsletter"
+        to="/mobiusline/newsletter"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         Newsletter
       </NavLink>
       <NavLink
-        to="/faq"
+        to="/mobiusline/faq"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         FAQ
       </NavLink>
       <NavLink
-        to="/releases"
+        to="/mobiusline/releases"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         Releases
