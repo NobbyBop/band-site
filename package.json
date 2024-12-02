@@ -1,9 +1,9 @@
 {
-  "name": "band-site",
+  "name": "mobiusline",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nobbybop.github.io/band-site",
+  "homepage": "https://nobbybop.github.io/mobiusline",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
