@@ -15,7 +15,7 @@ function Releases() {
 
     if (username === correctUsername && password === correctPassword) {
       alert("Login successful!");
-      navigate("/admin");
+      navigate("/mobiusline/admin");
     } else {
       alert("Invalid credentials!");
     }
