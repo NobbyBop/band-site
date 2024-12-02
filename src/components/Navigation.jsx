@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <nav className="navigation">
       <NavLink
-        to="/mobiusline/home"
+        to="/mobiusline/"
         className={(navData) => (navData.isActive ? "active" : "none")}
       >
         Home

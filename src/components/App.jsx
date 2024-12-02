@@ -17,7 +17,7 @@ function App() {
         <Navigation />
       </header>
       <Routes>
-        <Route path="/mobiusline/home" element={<Home />} />
+        <Route path="/mobiusline/" element={<Home />} />
         <Route path="/mobiusline/tour" element={<Tour />} />
         <Route path="/mobiusline/newsletter" element={<Newsletter />} />
         <Route path="/mobiusline/merch" element={<Merch />} />
