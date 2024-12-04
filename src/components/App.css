@@ -1,8 +1,8 @@
 body,
 html {
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .navigation {
   display: flex;
@@ -43,4 +43,31 @@ button {
 }
 .loaderror {
   text-align: center;
+}
+
+.merch-listings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between items */
+}
+
+.merch-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.merch-image {
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.newsletter,
+.newstitle,
+.newsdate,
+.faqentry {
+  margin-left: 15%;
+  margin-right: 15%;
 }

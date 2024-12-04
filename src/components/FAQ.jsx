@@ -5,7 +5,7 @@ function FAQ() {
     <>
       <h2>FAQ</h2>
 
-      <div>
+      <div className="faqentry">
         <h3>Who is MOBIUS LINE?</h3>
         <p>
           MOBIUS LINE is Bennet Stoll, Grayson Beck, Jon Burke, Jack Kline, (and
@@ -21,7 +21,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>Why are you called MOBIUS LINE?</h3>
         <p>
           Grayson's girlfriend of 7 years was a huge advocate for him to
@@ -33,7 +33,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>Where is MOBIUS LINE located?</h3>
         <p>
           Trying to be as general as possible in fear of accidentally doxing
@@ -44,7 +44,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>Do you sell any merch?</h3>
         <p>
           Yes! We love translating our song ideas into cool apparel for you
@@ -54,7 +54,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>How do you come up with your songs?</h3>
         <p>
           We come up with our music in all sorts of different ways! We always
@@ -65,7 +65,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>Are you currently going on tour?</h3>
         <p>
           We currently aren't touring any cities right now. Getting to go on
@@ -78,7 +78,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>How expensive are tickets?</h3>
         <p>
           We're currently not on tour right now, but ticket prices for the last
@@ -89,7 +89,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>How often do you release new music?</h3>
         <p>
           We release songs as they come out and can't commit to any consistent
@@ -103,7 +103,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>Does Captain go on tour?</h3>
         <p>
           Does a ship sail, plane fly, or rocket launch without its captain? Of
@@ -114,7 +114,7 @@ function FAQ() {
         </p>
       </div>
 
-      <div>
+      <div className="faqentry">
         <h3>Have you collaborated with other artists?</h3>
         <p>
           Unfortunately, we have yet to collaborate with anyone else as of the

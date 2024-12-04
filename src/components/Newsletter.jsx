@@ -6,7 +6,7 @@ function Newsletter() {
       <h2>Newsletter</h2>
       <h3 className="newstitle">We got interviewed!!!</h3>
       <h4 className="newsdate">2024-11-12</h4>
-      <p>
+      <p className="newsletter">
         We're so happy to announce that after such a successful show in , we
         caught the attention of Indie Insight! They wanted us to be one of the
         bands they interview, and of course, Bennet couldn't resist the
@@ -27,7 +27,7 @@ function Newsletter() {
 
       <h3 className="newstitle">We have merch!!!</h3>
       <h4 className="newsdate">2024-10-25</h4>
-      <p>
+      <p className="newsletter">
         After receiving so many requests from you guys for us to create our own
         set of merch drops, we've finally done it! We're so flattered (and a
         little confused) that you guys enjoy our music so much that you'd want
@@ -50,7 +50,7 @@ function Newsletter() {
 
       <h3 className="newstitle">Who are you people???</h3>
       <h4 className="newsdate">2024-09-14</h4>
-      <p>
+      <p className="newsletter">
         Well hello, everyone! Wow. What happened? One moment we're just creating
         silly little songs for fun with an average of 10 streams a month, and
         the next, we have nearly 10000X that amount! We're really thankful to
