@@ -4,6 +4,16 @@ html {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+body {
+  margin: 0; /* Remove default margins */
+  padding: 16px; /* Add space inside the border */
+  border: 2px solid #ccc; /* Light gray border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 1200px; /* Optional: Limit content width */
+  background-color: #f9f9f9; /* Optional: Light background color */
+}
+
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -58,7 +68,7 @@ button {
 }
 
 .merch-image {
-  cursor: pointer;
+  /* cursor: pointer; */
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -70,4 +80,29 @@ button {
 .faqentry {
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.home-photos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.home-photos {
+  text-align: center;
+}
+
+.home-image {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 30%; /* Scales the image to 25% of its natural width */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Ensures it's treated as a block element for layout */
+  margin: 0 auto; /* Centers the logo horizontally, if needed */
 }

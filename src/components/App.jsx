@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>MOBIUS LINE</h1>
+        <img src="/mobiusline/images/text_logo.png" className="header-logo" />
         <Navigation />
       </header>
       <Routes>
