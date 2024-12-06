@@ -187,3 +187,63 @@ button:disabled {
   width: 100%; /* Set a consistent width for images */
   margin: 0; /* Remove any margin between images */
 }
+
+/* Mobile scaling */
+@media screen and (max-width: 768px) {
+  body,
+  html {
+    font-size: 14px; /* Adjust font size for mobile */
+    padding: 10px;
+    transform: scale(0.95); /* Adjust the value to zoom out more or less */
+    transform-origin: top center; /* Ensures the scaling is done from the top center */
+  }
+
+  .main-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .navigation {
+    flex-direction: column; /* Stack navigation items vertically */
+    align-items: flex-start;
+    padding: 0.8rem;
+  }
+
+  .navigation a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .merch-listings {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(150px, 1fr)
+    ); /* Adjust grid for smaller screens */
+  }
+
+  .home-image {
+    width: 80%; /* Make the images take more width on mobile */
+  }
+
+  .headerImages {
+    flex-direction: column; /* Stack images vertically on mobile */
+  }
+
+  .header-logo {
+    width: 80%; /* Adjust image size */
+    margin: 5px 0; /* Add margin between images */
+  }
+
+  .tour-date button {
+    visibility: hidden;
+  }
+}
