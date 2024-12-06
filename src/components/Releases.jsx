@@ -10,8 +10,8 @@ function Releases() {
   const handleClick = (event) => {
     event.preventDefault();
 
-    const correctUsername = "username";
-    const correctPassword = "password";
+    const correctUsername = "captain2021";
+    const correctPassword = "m88or4g2a3n9537";
 
     if (username === correctUsername && password === correctPassword) {
       alert("Login successful!");
@@ -28,7 +28,6 @@ function Releases() {
         501 Unauthorized Access. Please contact admin or log in with admin
         account.
       </p>
-      <p>For testing purposes, username=username, password=password</p>
       <form onSubmit={handleClick}>
         <div className="loginDiv">
           <label htmlFor="username">

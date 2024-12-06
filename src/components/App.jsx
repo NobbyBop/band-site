@@ -11,9 +11,15 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="main-container">
       <header>
-        <img src="/mobiusline/images/text_logo.png" className="header-logo" />
+        <div className="headerImages">
+          <img src="/mobiusline/images/text_logo.png" className="header-logo" />
+          <img
+            src="/mobiusline/images/logo_cropped.PNG"
+            className="header-logo"
+          />
+        </div>
         <Navigation />
       </header>
       <Routes>
@@ -25,7 +31,7 @@ function App() {
         <Route path="/mobiusline/faq" element={<FAQ />} />
         <Route path="/mobiusline/admin" element={<Admin />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

@@ -19,6 +19,17 @@ function Home() {
         Mobius Line Band information here. Some pictures and social links as
         well.
       </p>
+      <h3 className="info">About</h3>
+      <p>
+        MOBIUS LINE is Bennet Stoll, Grayson Beck, Jon Burke, Jack Kline, (and
+        Captain).{" "}
+      </p>
+      <h3 className="info">Socials</h3>
+      <p>
+        Follow us on instagram{" "}
+        <a href="https://www.instagram.com/mobiuslineband/">@mobiuslineband</a>{" "}
+        !
+      </p>
 
       <h3>Photos</h3>
       <div className="home-photos-container">

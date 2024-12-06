@@ -4,6 +4,7 @@ function Newsletter() {
   return (
     <>
       <h2>Newsletter</h2>
+      <p>Newsletter emails coming soon, stay tuned! -J</p>
       <h3 className="newstitle">We got interviewed!!!</h3>
       <h4 className="newsdate">2024-11-12</h4>
       <p className="newsletter">

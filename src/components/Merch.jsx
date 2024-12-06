@@ -12,7 +12,7 @@ function App() {
       id: 2,
       name: "Eyepatch Cat Hoodie",
       image: "/mobiusline/images/cat_hoodie.PNG",
-      price: "$15",
+      price: "$45",
     },
     {
       id: 4,
@@ -24,7 +24,7 @@ function App() {
       id: 4,
       name: "MOBIUS LINE Crewneck Sweatshirt",
       image: "/mobiusline/images/logo_crewneck.PNG",
-      price: "$25",
+      price: "$45",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ function App() {
       id: 5,
       name: "MOBIUS LINE Sticker Pack",
       image: "/mobiusline/images/stickers.png",
-      price: "$5",
+      price: "$10",
     },
   ];
 
