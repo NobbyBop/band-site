@@ -96,7 +96,7 @@ button .login {
 
 .merch-listings {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   margin: 20px 0;
   padding: 0;
@@ -186,6 +186,12 @@ button:disabled {
   max-width: 100%; /* Ensure images are responsive */
   width: 100%; /* Set a consistent width for images */
   margin: 0; /* Remove any margin between images */
+}
+
+@media (min-width: 1024px) {
+  .header-logo {
+    width: 50%; /* Adjust width for larger screens */
+  }
 }
 
 /* Mobile scaling */

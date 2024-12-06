@@ -1,23 +1,36 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
+import bcrypt from "bcryptjs";
 
 function Releases() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  const handleClick = (event) => {
+  const handleClick = async (event) => {
     event.preventDefault();
+    const hashedUsername =
+      "$2a$10$CTdriKrZ1ydLULgRsKQqPug7cZ/JVQ6KHV8BHZ0HXLqCuVqIuWxry";
+    const hashedPassword =
+      "$2a$10$OMb3xGhSFtfUIICetm3xNenwnmxxBAEvv0VdXi3BFqiR.zrLuZLFS";
 
-    const correctUsername = "captain2021";
-    const correctPassword = "m88or4g2a3n9537";
+    try {
+      const isUsernameCorrect = await bcrypt.compare(
+        username.toLowerCase(),
+        hashedUsername
+      );
+      const isPasswordCorrect = await bcrypt.compare(password, hashedPassword);
 
-    if (username === correctUsername && password === correctPassword) {
-      alert("Login successful!");
-      navigate("/mobiusline/admin");
-    } else {
-      alert("Invalid credentials!");
+      if (isUsernameCorrect && isPasswordCorrect) {
+        alert("Login successful!");
+        navigate("/mobiusline/admin");
+      } else {
+        alert("Invalid credentials!");
+      }
+    } catch (error) {
+      console.error("Error during authentication:", error);
+      alert("An error occurred. Please try again later.");
     }
   };
 
