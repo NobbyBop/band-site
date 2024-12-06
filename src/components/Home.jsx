@@ -36,7 +36,7 @@ function Home() {
         {photos.map((item) => (
           <div className="home-photos" key={item.id}>
             <img src={item.source} className="home-image" />
-            <p>Caption undefined for photo_id={item.id}</p>
+            <p>caption undefined for photo_id={item.id}</p>
           </div>
         ))}
       </div>
