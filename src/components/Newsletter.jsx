@@ -11,19 +11,20 @@ function Newsletter() {
         We're so happy to announce that after such a successful show in , we
         caught the attention of Indie Insight! They wanted us to be one of the
         bands they interview, and of course, Bennet couldn't resist the
-        attention, so as of today you can go to our YouTube channel and hear our
-        first-ever interview! We're so honored that you guys support us and our
-        songs so much that journalists are actively reaching out hoping to hear
-        what our favorite color of jelly bean is (It's red). It's such an
-        incredible amount of support and we are all so so grateful to each and
-        every one of you for making our dreams into a reality. Sadly, Bennet was
-        the only one who was actually able to make it since the rest of us all
-        had prior commitments, but don't worry, this won't be the last time we
-        go on someone's show to talk about all the cool stuff we've been cooking
-        up! But in the meantime, enjoy listening to Bennet! He legitimately did
-        a great job, and there isn't a question in there that he answered that
-        we would have answered any differently. So what are you waiting for? Go
-        give it a listen! GOGOGOGOGOGOGO
+        attention, so you can check that out{" "}
+        <a href="https://www.youtube.com/@Indie_Insights_Indie">here</a>! We're
+        so honored that you guys support us and our songs so much that
+        journalists are actively reaching out hoping to hear what our favorite
+        color of jelly bean is (It's red). It's such an incredible amount of
+        support and we are all so so grateful to each and every one of you for
+        making our dreams into a reality. Sadly, Bennet was the only one who was
+        actually able to make it since the rest of us all had prior commitments,
+        but don't worry, this won't be the last time we go on someone's show to
+        talk about all the cool stuff we've been cooking up! But in the
+        meantime, enjoy listening to Bennet! He legitimately did a great job,
+        and there isn't a question in there that he answered that we would have
+        answered any differently. So what are you waiting for? Go give it a
+        listen! GOGOGOGOGOGOGO
       </p>
 
       <h3 className="newstitle">We have merch!!!</h3>
