@@ -11,7 +11,7 @@ function Releases() {
   const handleClick = async (event) => {
     event.preventDefault();
     const hashedUsername =
-      "$2a$10$CTdriKrZ1ydLULgRsKQqPug7cZ/JVQ6KHV8BHZ0HXLqCuVqIuWxry";
+      "$2a$10$uwf/LG0o/9eLI5oxp7b49evZUiFdK0TZ95ZEZohNG/2.GrmKt7/om";
     const hashedPassword =
       "$2a$10$OMb3xGhSFtfUIICetm3xNenwnmxxBAEvv0VdXi3BFqiR.zrLuZLFS";
 
