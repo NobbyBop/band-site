@@ -36,7 +36,7 @@ function Tour() {
       <div className="tour-date">
         <h4 className="venue">Troubadour</h4>
         <p className="location">West Hollywood, California</p>
-        <p className="date">2024-12-07</p>
+        <p className="date">2024-09-22</p>
         <div className="buttons">
           <button disabled>Tickets</button>
           <button disabled>VIP</button>
@@ -45,7 +45,7 @@ function Tour() {
       <div className="tour-date">
         <h4 className="venue">Tupelo Music Hall</h4>
         <p className="location">Londonderry, New Hampshire</p>
-        <p className="date">2024-12-13</p>
+        <p className="date">2024-09-10</p>
         <div className="buttons">
           <button disabled>Tickets</button>
           <button disabled>VIP</button>
